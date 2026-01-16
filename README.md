@@ -1,1 +1,2 @@
-# good
+# gpt2的预训练微调
+首先通过clean_data清洗原始数据集，然后利用train_tokenizer训练分词器，然后通过外部模型api生成代码对应提示词：instruction_generate，最后预训练微调pre_train,sft_train.
